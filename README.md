@@ -1,3 +1,15 @@
+<img width="500" alt="Screenshot of Namerator App" src="https://github.com/ssteigen/shot-scraper/blob/main/namerator-screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of NH Passport Title Generator App" src="https://github.com/ssteigen/shot-scraper/blob/main/nh-passport-title-generator-screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of Propgress App" src="https://github.com/ssteigen/shot-scraper/blob/main/propgress-screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of React Bootcamp App" src="https://github.com/ssteigen/shot-scraper/blob/main/react-bootcamp-screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of My Personal Site" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of Skatesona App" src="https://github.com/ssteigen/shot-scraper/blob/main/skatesona-screenshot.png?raw=true">
+
 # shot-scraper-template
 
 Quickly create a new GitHub repository that takes automated screenshots of a web page using [shot-scraper](https://github.com/simonw/shot-scraper).
