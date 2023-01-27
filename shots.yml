@@ -1,3 +1,19 @@
 - url: https://ssteigen.github.io/react-bootcamp/
-  output: shot.png
+  output: react-bootcamp-screenshot.png
   height: 800
+- url: https://ssteigen.github.io/propgress/
+  output: propgress-screenshot.png
+  height: 800
+- url: https://ssteigen.github.io/nh-passport-title-generator/
+  output: nh-passport-title-generator-screenshot.png
+  height: 800
+- url: https://ssteigen.github.io/skatesona/
+  output: skatesona-screenshot.png
+  height: 800
+- url: https://ssteigen.github.io/namerator/
+  output: namerator-screenshot.png
+  height: 800
+- url: https://ssteigen.github.io
+  output: screenshot.png
+  height: 800
+  
