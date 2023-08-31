@@ -10,4 +10,7 @@
 - url: https://ssteigen.github.io/namerator/
   output: namerator-screenshot.png
   height: 800
+- url: https://ssteigen.github.io/the-yarn-basket/
+  output: the-yarn-basket-screenshot.png
+  height: 800
   
