@@ -1,12 +1,24 @@
+# Portfolio Screenshot Generator
+
+Automated screenshot generation for portfolio projects using [shot-scraper](https://github.com/simonw/shot-scraper).
+
+## Current Project Screenshots
+
+<img width="500" alt="Screenshot of StitchSpeak App" src="https://github.com/ssteigen/shot-scraper/blob/main/stitchspeak-screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of The Yarn Basket" src="https://github.com/ssteigen/shot-scraper/blob/main/the-yarn-basket-screenshot.png?raw=true">
+
+<img width="500" alt="Screenshot of Skatesona App" src="https://github.com/ssteigen/shot-scraper/blob/main/skatesona-screenshot.png?raw=true">
+
 <img width="500" alt="Screenshot of Namerator App" src="https://github.com/ssteigen/shot-scraper/blob/main/namerator-screenshot.png?raw=true">
 
 <img width="500" alt="Screenshot of Propgress App" src="https://github.com/ssteigen/shot-scraper/blob/main/propgress-screenshot.png?raw=true">
 
-<img width="500" alt="Screenshot of React Bootcamp App" src="https://github.com/ssteigen/shot-scraper/blob/main/react-bootcamp-screenshot.png?raw=true">
+<img width="500" alt="Screenshot of Colorfill App" src="https://github.com/ssteigen/shot-scraper/blob/main/colorfill-screenshot.png?raw=true">
 
-<img width="500" alt="Screenshot of Skatesona App" src="https://github.com/ssteigen/shot-scraper/blob/main/skatesona-screenshot.png?raw=true">
+<img width="500" alt="Screenshot of Minesweeper App" src="https://github.com/ssteigen/shot-scraper/blob/main/minesweeper-screenshot.png?raw=true">
 
-# shot-scraper-template
+## About This Tool
 
 Quickly create a new GitHub repository that takes automated screenshots of a web page using [shot-scraper](https://github.com/simonw/shot-scraper).
 

@@ -21,3 +21,7 @@
 - url: https://ssteigen.github.io/minesweeper/
   output: minesweeper-screenshot.png
   height: 800
+- url: https://ssteigen.github.io/StitchSpeak/
+  output: stitchspeak-screenshot.png
+  height: 800
+  wait: 3000
