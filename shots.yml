@@ -14,59 +14,25 @@
 - url: https://ssteigen.github.io/the-yarn-basket/
   output: screenshots/the-yarn-basket-screenshot.png
   width: 1280
-  wait: 3000
+  wait: 5000
   javascript: |
-    // Scroll to trigger lazy loading of all images
-    const scrollToBottom = () => {
+    // Remove lazy loading attributes to force immediate loading
+    const images = document.querySelectorAll('img[loading="lazy"]');
+    images.forEach(img => {
+      img.removeAttribute('loading');
+      // Force reload of the image source to trigger immediate loading
+      const src = img.src;
+      img.src = '';
+      img.src = src;
+    });
+    
+    // Wait a moment for images to start loading, then scroll to ensure all are visible
+    setTimeout(() => {
       window.scrollTo(0, document.body.scrollHeight);
-    };
-    
-    // Wait for images to load after scrolling
-    const waitForImages = () => {
-      return new Promise(resolve => {
-        const images = document.querySelectorAll('img[loading="lazy"]');
-        let loadedCount = 0;
-        
-        if (images.length === 0) {
-          resolve();
-          return;
-        }
-        
-        images.forEach(img => {
-          if (img.complete) {
-            loadedCount++;
-          } else {
-            img.addEventListener('load', () => {
-              loadedCount++;
-              if (loadedCount === images.length) {
-                resolve();
-              }
-            });
-          }
-        });
-        
-        if (loadedCount === images.length) {
-          resolve();
-        }
-      });
-    };
-    
-    // Scroll down gradually to trigger lazy loading
-    let currentPosition = 0;
-    const scrollStep = 500;
-    const maxScroll = document.body.scrollHeight;
-    
-    const scrollInterval = setInterval(() => {
-      currentPosition += scrollStep;
-      window.scrollTo(0, currentPosition);
-      
-      if (currentPosition >= maxScroll) {
-        clearInterval(scrollInterval);
-        waitForImages().then(() => {
-          window.scrollTo(0, 0); // Scroll back to top
-        });
-      }
-    }, 200);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 2000);
+    }, 1000);
 - url: https://ssteigen.github.io/colorfill/
   output: screenshots/colorfill-screenshot.png
   width: 1280
