@@ -1,27 +1,27 @@
 - url: https://ssteigen.github.io/react-bootcamp/
   output: react-bootcamp-screenshot.png
-  height: 800
+  width: 1280
 - url: https://ssteigen.github.io/propgress/
   output: propgress-screenshot.png
-  height: 800
+  width: 1280
 - url: https://ssteigen.github.io/skatesona/
   output: skatesona-screenshot.png
-  height: 800
+  width: 1280
   wait: 3000
 - url: https://ssteigen.github.io/namerator/
   output: namerator-screenshot.png
-  height: 800
+  width: 1280
 - url: https://ssteigen.github.io/the-yarn-basket/
   output: the-yarn-basket-screenshot.png
-  height: 800
+  width: 1280
   wait: 3000
 - url: https://ssteigen.github.io/colorfill/
   output: colorfill-screenshot.png
-  height: 800
+  width: 1280
 - url: https://ssteigen.github.io/minesweeper/
   output: minesweeper-screenshot.png
-  height: 800
+  width: 1280
 - url: https://ssteigen.github.io/StitchSpeak/
   output: stitchspeak-screenshot.png
-  height: 800
+  width: 1280
   wait: 3000
