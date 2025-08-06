@@ -4,19 +4,21 @@ Automated screenshot generation for portfolio projects using [shot-scraper](http
 
 ## Current Project Screenshots
 
-<img width="500" alt="Screenshot of StitchSpeak App" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/stitchspeak-screenshot.png?raw=true">
+![](screenshots/stitchspeak-screenshot.png)
 
-<img width="500" alt="Screenshot of The Yarn Basket" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/the-yarn-basket-screenshot.png?raw=true">
+![](screenshots/the-yarn-basket-screenshot.png)
 
-<img width="500" alt="Screenshot of Skatesona App" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/skatesona-screenshot.png?raw=true">
+![](screenshots/skatesona-screenshot.png)
 
-<img width="500" alt="Screenshot of Namerator App" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/namerator-screenshot.png?raw=true">
+![](screenshots/namerator-screenshot.png)
 
-<img width="500" alt="Screenshot of Propgress App" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/propgress-screenshot.png?raw=true">
+![](screenshots/propgress-screenshot.png)
 
-<img width="500" alt="Screenshot of Colorfill App" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/colorfill-screenshot.png?raw=true">
+![](screenshots/colorfill-screenshot.png)
 
-<img width="500" alt="Screenshot of Minesweeper App" src="https://github.com/ssteigen/shot-scraper/blob/main/screenshots/minesweeper-screenshot.png?raw=true">
+![](screenshots/minesweeper-screenshot.png)
+
+![](screenshots/react-bootcamp-screenshot.png)
 
 ## About This Tool
 
