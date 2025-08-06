@@ -15,6 +15,58 @@
   output: screenshots/the-yarn-basket-screenshot.png
   width: 1280
   wait: 3000
+  javascript: |
+    // Scroll to trigger lazy loading of all images
+    const scrollToBottom = () => {
+      window.scrollTo(0, document.body.scrollHeight);
+    };
+    
+    // Wait for images to load after scrolling
+    const waitForImages = () => {
+      return new Promise(resolve => {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        let loadedCount = 0;
+        
+        if (images.length === 0) {
+          resolve();
+          return;
+        }
+        
+        images.forEach(img => {
+          if (img.complete) {
+            loadedCount++;
+          } else {
+            img.addEventListener('load', () => {
+              loadedCount++;
+              if (loadedCount === images.length) {
+                resolve();
+              }
+            });
+          }
+        });
+        
+        if (loadedCount === images.length) {
+          resolve();
+        }
+      });
+    };
+    
+    // Scroll down gradually to trigger lazy loading
+    let currentPosition = 0;
+    const scrollStep = 500;
+    const maxScroll = document.body.scrollHeight;
+    
+    const scrollInterval = setInterval(() => {
+      currentPosition += scrollStep;
+      window.scrollTo(0, currentPosition);
+      
+      if (currentPosition >= maxScroll) {
+        clearInterval(scrollInterval);
+        waitForImages().then(() => {
+          window.scrollTo(0, 0); // Scroll back to top
+        });
+      }
+    }, 200);
 - url: https://ssteigen.github.io/colorfill/
   output: screenshots/colorfill-screenshot.png
   width: 1280
